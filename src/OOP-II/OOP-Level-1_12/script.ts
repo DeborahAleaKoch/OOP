@@ -53,8 +53,8 @@ export class IceCreamFlavor {
 }
 
 const vanille = new IceCreamFlavor("Vanille", 1.2, true, "lecker");
-// const choco = new IceCreamFlavor("Choco", 1.2, true);
-// const strawberry = new IceCreamFlavor("Strawberry", 1.3, false);
+const choco = new IceCreamFlavor("Choco", 1.2, true);
+const strawberry = new IceCreamFlavor("Strawberry", 1.3, false);
 
 vanille.getTotalPrice(3);
 vanille.printInfo();
