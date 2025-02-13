@@ -2,9 +2,9 @@
 //sie soll die Eigenschaften species (string), age (number) und color (string) enthalten
 
 export class Animal {
-	_species: string = "";
-	_age: number = 1;
-	_color: string = "";
+	private _species: string = "";
+	private _age: number = 1;
+	private _color: string = "";
 	// constructor(species: string, age: number, color: string) {
 	// 	this._species = species;
 	// 	this.age = age;
@@ -12,13 +12,13 @@ export class Animal {
 	// }
 
 	//Implementiere Get- und Set-Methoden für jede Eigenschaft.
-	get species(): string {
+	getSpecies(): string {
 		return this._species;
 	}
-	get age(): number {
+	getAge(): number {
 		return this._age;
 	}
-	get color(): string {
+	getColor(): string {
 		return this._color;
 	}
 
@@ -36,3 +36,4 @@ export class Animal {
 		this._color = colorName;
 	}
 }
+const foo = new Animal();

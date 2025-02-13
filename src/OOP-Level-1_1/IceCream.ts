@@ -20,5 +20,9 @@ export class IceCreamFlavor {
 		if (isPopular === true) {
 			console.log(name);
 		}
+		this.name = name;
+		this.price = price;
+		this.description = description;
+		this.isPopular = isPopular;
 	}
 }
